@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Biểu mẫu chia sẻ Tết</title>
+</head>
+<body>
+
+    <h2>Biểu mẫu chia sẻ Tết</h2>
+
+    <form>
+        <!-- Kỷ niệm Tết -->
+        <p><b>1. Kỷ niệm Tết đáng nhớ</b></p>
+        <label>Họ tên:</label><br>
+        <input type="text"><br><br>
+
+        <label>Kỷ niệm của bạn:</label><br>
+        <textarea rows="4" cols="40"></textarea><br><br>
+
+        <!-- Kế hoạch Tết -->
+        <p><b>2. Kế hoạch Tết năm nay</b></p>
+
+        <input type="checkbox"> Về quê thăm gia đình<br>
+        <input type="checkbox"> Du lịch<br>
+        <input type="checkbox"> Đi chúc Tết họ hàng<br>
+        <input type="checkbox"> Học tập / làm bài tập<br>
+        <input type="checkbox"> Nghỉ ngơi tại nhà<br><br>
+
+        <label>Kế hoạch khác:</label><br>
+        <textarea rows="3" cols="40"></textarea><br><br>
+
+        <!-- Nút -->
+        <input type="submit" value="Gửi">
+        <input type="reset" value="Nhập lại">
+    </form>
+
+</body>
+</html>
