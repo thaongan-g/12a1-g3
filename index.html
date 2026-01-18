@@ -123,7 +123,7 @@ b {color: #b71c1c;}.section {background-color: #ffffff;padding: 15px;margin-bott
 
 </body>
 </html>
-    <!DOCTYPE html>
+        <!DOCTYPE html>
 <html lang="vi">
 <head>
     <meta charset="UTF-8">
@@ -132,11 +132,8 @@ b {color: #b71c1c;}.section {background-color: #ffffff;padding: 15px;margin-bott
         body {
             font-family: Arial, sans-serif;
             background: linear-gradient(to right, #ffecd2, #fcb69f);
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
             margin: 0;
+            padding-top: 60px;
         }
 
         .memory-box {
@@ -146,6 +143,7 @@ b {color: #b71c1c;}.section {background-color: #ffffff;padding: 15px;margin-bott
             border-radius: 15px;
             text-align: center;
             box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+            margin: 0 auto; /* căn giữa, không chia hàng cột */
         }
 
         .memory-box img {
@@ -182,10 +180,13 @@ b {color: #b71c1c;}.section {background-color: #ffffff;padding: 15px;margin-bott
 
 <div class="memory-box">
     <h2>Kỷ niệm đáng nhớ 🌸</h2>
+
     <img src="https://i.imgur.com/8Km9tLL.jpg" alt="Kỷ niệm">
+
     <p id="memoryText">
         Có những khoảnh khắc tuy nhỏ bé nhưng lại khiến ta nhớ mãi không quên.
     </p>
+
     <button onclick="changeMemory()">Đổi kỷ niệm</button>
 </div>
 
@@ -205,5 +206,3 @@ b {color: #b71c1c;}.section {background-color: #ffffff;padding: 15px;margin-bott
 
 </body>
 </html>
-            
-
