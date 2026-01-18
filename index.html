@@ -123,4 +123,87 @@ b {color: #b71c1c;}.section {background-color: #ffffff;padding: 15px;margin-bott
 
 </body>
 </html>
+    <!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Chia sẻ kỷ niệm</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #ffecd2, #fcb69f);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .memory-box {
+            background: white;
+            width: 350px;
+            padding: 20px;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        }
+
+        .memory-box img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+
+        h2 {
+            color: #ff6f61;
+        }
+
+        p {
+            color: #555;
+            font-size: 15px;
+        }
+
+        button {
+            margin-top: 15px;
+            padding: 10px 20px;
+            background: #ff6f61;
+            border: none;
+            color: white;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #ff3b2e;
+        }
+    </style>
+</head>
+<body>
+
+<div class="memory-box">
+    <h2>Kỷ niệm đáng nhớ 🌸</h2>
+    <img src="https://i.imgur.com/8Km9tLL.jpg" alt="Kỷ niệm">
+    <p id="memoryText">
+        Có những khoảnh khắc tuy nhỏ bé nhưng lại khiến ta nhớ mãi không quên.
+    </p>
+    <button onclick="changeMemory()">Đổi kỷ niệm</button>
+</div>
+
+<script>
+    const memories = [
+        "Có những ngày ta cười rất nhiều bên những người thân yêu.",
+        "Kỷ niệm đẹp nhất là khi ta sống hết mình cho hiện tại.",
+        "Dù thời gian trôi qua, ký ức ấy vẫn luôn ở trong tim.",
+        "Mỗi bức ảnh là một câu chuyện chưa bao giờ cũ."
+    ];
+
+    function changeMemory() {
+        const randomIndex = Math.floor(Math.random() * memories.length);
+        document.getElementById("memoryText").innerText = memories[randomIndex];
+    }
+</script>
+
+</body>
+</html>
+
 
