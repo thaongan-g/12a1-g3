@@ -182,7 +182,22 @@ b {color: #b71c1c;}.section {background-color: #ffffff;padding: 15px;margin-bott
     <h2>Kỷ niệm Tết đáng nhớ 🌸</h2>
 
     <img 
-        id="memoryImage"
-        src="https://images.unsplash.com/photo-1549633030-89d0743bad01"
-        alt="Không khí Tết Việt Nam"
-        
+    src="https://images.unsplash.com/photo-1549633030-89d0743bad01"
+    alt="Kỷ niệm Tết"
+>
+     <script>
+    const memories = [
+        "Có những ngày ta cười rất nhiều bên những người thân yêu.",
+        "Kỷ niệm đẹp nhất là khi ta sống hết mình cho hiện tại.",
+        "Dù thời gian trôi qua, ký ức ấy vẫn luôn ở trong tim.",
+        "Mỗi bức ảnh là một câu chuyện chưa bao giờ cũ."
+    ];
+
+    function changeMemory() {
+        const randomIndex = Math.floor(Math.random() * memories.length);
+        document.getElementById("memoryText").innerText = memories[randomIndex];
+    }
+     </script>   
+
+</body>
+</html>
