@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Chia sẻ kỷ niệm Tết</title>
+</head>
+<body>
+
+<form action="#" method="post">
+	<fieldset style="width: 50%;">
+		<h2>BIỂU MẪU CHIA SẺ TẾT NGUYÊN ĐÁN</h2>
+		<h3>Kỷ niệm đáng nhớ hoặc kế hoạch Tết năm nay</h3>
+
+		<table>
+			<tr>
+				<td><label for="hoten">Họ và tên:</label></td>
+				<td><input type="text" id="hoten" name="hoten" required></td>
+			</tr>
+
+			<tr>
+				<td><label for="lop">Lớp:</label></td>
+				<td><input type="text" id="lop" name="lop"></td>
+			</tr>
+
+			<tr>
+				<td><label for="email">Email:</label></td>
+				<td><input type="email" id="email" name="email"></td>
+			</tr>
+
+			<tr>
+				<td>Nội dung chia sẻ:</td>
+				<td>
+					<input type="radio" name="loai" value="kyniem" id="kyniem">
+					<label for="kyniem">Kỷ niệm Tết</label>
+					<input type="radio" name="loai" value="kehoach" id="kehoach">
+					<label for="kehoach">Kế hoạch Tết</label>
+				</td>
+			</tr>
+
+			<tr>
+				<td><label for="noidung">Chi tiết:</label></td>
+				<td>
+					<textarea id="noidung" name="noidung" rows="5" cols="30"
+					placeholder="Hãy chia sẻ kỷ niệm hoặc kế hoạch Tết của bạn..."></textarea>
+				</td>
+			</tr>
+
+			<tr>
+				<td>Hoạt động Tết yêu thích:</td>
+				<td>
+					<input type="checkbox" name="hoatdong[]" value="banhchung"> Gói bánh chưng
+					<input type="checkbox" name="hoatdong[]" value="chuctet"> Chúc Tết
+					<input type="checkbox" name="hoatdong[]" value="dulich"> Du xuân
+				</td>
+			</tr>
+
+			<tr>
+				<td><label for="anh">Ảnh Tết (nếu có):</label></td>
+				<td><input type="file" id="anh" name="anh"></td>
+			</tr>
+
+			<tr>
+				<td></td>
+				<td>
+					<button type="submit" style="color: red; font-weight: bold;">
+						Gửi chia sẻ
+					</button>
+				</td>
+			</tr>
+
+			<tr>
+				<td></td>
+				<td>
+					<a href="index.html">Về trang chủ</a>
+				</td>
+			</tr>
+		</table>
+	</fieldset>
+</form>
+
+</body>
+</html>
