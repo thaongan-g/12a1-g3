@@ -1,23 +1,31 @@
+
 <!DOCTYPE html>
 <html lang="vi">
 <head>
 <meta charset="utf-8">
-<title>Tết Nguyên Đán - Tết Đoàn Viên</title>
+<title>Tết Nguyên Đán – Tết Đoàn Viên</title>
 <style>
-body{  margin:0;
-    font-family: Arial, sans-serif;
+body{ margin:0;
+    font-family:"Segoe UI", Arial, sans-serif;
     background:#fffaf0;
-    color:#333;}
+    color:#333;
+    line-height:1.6;}
+a{text-decoration:none;
+    color:#c62828;}
+  .link:hover{ text-decoration:underline;}
 header{ background:linear-gradient(to right,#c62828,#e53935);
     color:white;
-    padding-bottom:30px;}
+    padding-bottom:25px;}
 .banner{text-align:center;
-    padding:30px 10px;}
-.banner h1{  margin:0; font-size:34px;}
-.row{ display:flex;
-     justify-content:center;
+    padding:30px 10px 10px;}
+.banner h1{ margin:0;
+    font-size:36px;
+    letter-spacing:1px;}
+.row{display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
     gap:20px;
-    flex-wrap:wrap;}
+    padding:0 20px;}
 .block_3{
     background: white;
     color: #c62828;
@@ -36,54 +44,56 @@ header{ background:linear-gradient(to right,#c62828,#e53935);
     transform: translateY(-6px); /* nổi lên */
     box-shadow: 0 10px 20px rgba(0,0,0,0.3);
 }
-.block_3 h2{
-    margin-top:0;}
-
-table{ width:90%;
-    margin:40px auto;
-    border-spacing:30px;}
-.cell_text{
-    vertical-align:top;}
-.cell_text h3{
-    color:#c62828;}
-.cell_text ul{ padding-left:20px;}
-.cell_text a{ display:inline-block;
-    margin-top:10px;
+h2{text-align:center;
     color:#c62828;
-    font-weight:bold;
-    text-decoration:none;}
-.cell_text a:hover{text-decoration:underline;}
-.cell_img{text-align:center;}
-.img{ width:90%;
-    border-radius:12px;
-    box-shadow:0 4px 10px rgba(0,0,0,0.2);}
-
-footer{  background:#c62828;
+    margin-top:45px;}
+p{max-width:900px;
+    margin:12px auto 20px;
+    padding:0 15px;
+    text-align:justify;}
+img{  display:block;
+    margin:0 auto 35px;
+    width:30%;
+    height:auto;
+    border-radius:14px;
+    box-shadow:0 5px 12px rgba(0,0,0,0.25);}
+footer{background:#c62828;
     color:white;
+    margin-top:50px;
     padding:30px 20px;}
-
-footer ul{list-style:none;
+footer ul{
+    list-style:none;
     padding-left:0;}
-
-footer li{  margin-bottom:8px;}
-footer a{ color:#ffe082;
-    text-decoration:none;}
-footer a:hover{ text-decoration:underline;}
-@media(max-width:768px){ .block_3{width:85%;}
-    table, tr, td{ display:block; width:100%;}
- .cell_img{ margin-top:15px;}}
+footer li{margin-bottom:8px;}
+footer a{ color:#ffe082;}
+@media(max-width:768px)
+  {.block_3{ width:85%; }
+    img{ width:80%; }
+    footer .row{ flex-direction:column; }}
 </style>
 </head>
 <body>
 <header>
 <div class="banner">
-<h1>TẾT NGUYÊN ĐÁN - TẾT ĐOÀN VIÊN</h1>
-</div>
-<div class="slogan">
-    <div class="row">
-            <div id="b3a" class="block_3">
+      <h1>TẾT NGUYÊN ĐÁN – TẾT ĐOÀN VIÊN</h1>
+    </div>
+ <div class="slogan">
+        <div class="row">
+            <div class="block_3">
                 <h2>Sum vầy</h2>
-                <p>Không khí tết ấm áp-gắn kết yêu thương</p>
+                <p>Không khí Tết ấm áp, gắn kết yêu thương</p>
+            </div>
+            <div class="block_3">
+                <h2>Truyền thống</h2>
+                <p>Gìn giữ phong tục tốt đẹp của dân tộc</p>
+            </div>
+            <div class="block_3">
+                <h2>Khởi đầu mới</h2>
+                <p>Hy vọng – may mắn – thành công</p>
+            </div>
+        </div>
+    </div>
+</header>
 
 <table>
 <tr>
