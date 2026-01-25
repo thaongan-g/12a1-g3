@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8">
+    <title>Chia sẻ kỷ niệm Tết</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #fff7e6;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 700px;
+            margin: 30px auto;
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #c62828;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        input, select, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0 16px;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+        }
+
+        textarea {
+            resize: vertical;
+        }
+
+        .btn {
+            background-color: #d32f2f;
+            color: white;
+            border: none;
+            padding: 12px;
+            border-radius: 6px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: #b71c1c;
+        }
+
+        .back {
+            margin-top: 15px;
+            text-align: center;
+        }
+
+        .back a {
+            text-decoration: none;
+            color: #c62828;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+    <h1>Chia sẻ kỷ niệm & kế hoạch Tết</h1>
+
+    <form>
+        <label>Họ và tên:</label>
+        <input type="text" placeholder="Nhập họ và tên">
+
+        <label>Lớp:</label>
+        <input type="text" placeholder="Ví dụ: 12A1">
+
+        <label>Bạn muốn chia sẻ về:</label>
+        <select>
+            <option>Kỷ niệm Tết đáng nhớ</option>
+            <option>Kế hoạch Tết năm nay</option>
+        </select>
+
+        <label>Nội dung chia sẻ:</label>
+        <textarea rows="5" placeholder="Hãy viết kỷ niệm hoặc kế hoạch Tết của bạn..."></textarea>
+
+        <label>Cảm xúc về Tết:</label>
+        <select>
+            <option>Vui vẻ</option>
+            <option>Hạnh phúc</option>
+            <option>Háo hức</option>
+            <option>Bình yên</option>
+        </select>
+
+        <button type="submit" class="btn">Gửi chia sẻ</button>
+    </form>
+
+    <div class="back">
+        <a href="index.html">← Quay về trang chủ</a>
+    </div>
+</div>
+
+</body>
+</html>
