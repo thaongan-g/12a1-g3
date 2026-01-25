@@ -18,13 +18,24 @@ header{ background:linear-gradient(to right,#c62828,#e53935);
      justify-content:center;
     gap:20px;
     flex-wrap:wrap;}
-.block_3{  background:white;
-    color:#c62828;
-    width:28%;
-    padding:20px;
-    text-align:center;
-    border-radius:12px;
-    box-shadow:0 4px 10px rgba(0,0,0,0.15);}
+.block_3{
+    background: white;
+    color: #c62828;
+    width: 28%;
+    padding: 20px;
+    text-align: center;
+    border-radius: 14px;
+    box-shadow: 0 6px 14px rgba(0,0,0,0.2);
+    transition: all 0.3s ease; /* hiệu ứng mượt */
+}
+
+/* Khi di chuột vào */
+.block_3:hover{
+    background: #fbc02d;      /* nền vàng */
+    color: white;             /* chữ trắng */
+    transform: translateY(-6px); /* nổi lên */
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
 .block_3 h2{
     margin-top:0;}
 
